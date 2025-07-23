@@ -88,7 +88,7 @@ pushd $install_dir
 	php$php_version artisan key:generate --no-interaction --force
 	php$php_version artisan jwt:secret --no-interaction --force
 	php$php_version artisan migrate
-	php$php_version artisan db:seed
+	#php$php_version artisan db:seed
 popd
 
 #=================================================
